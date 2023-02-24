@@ -140,7 +140,7 @@ $('.divpr').on("click", "button.minus", function() {
     updateCart(cart);
 });
 $('.divpr').on("click", "button.plus", function() {
-    a = this.id.slice(6, );
+    a = this.id.slice(6 , );
     cart['pr' + a] = cart['pr' + a] + 1;
     document.getElementById('valpr' + a).innerHTML = cart['pr' + a];
     updateCart(cart);
